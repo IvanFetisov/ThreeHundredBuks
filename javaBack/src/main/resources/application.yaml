@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  thymeleaf:
+    template-resolver-order: 1
+    check-template: true
+    check-template-location: true
+    enabled: true
+    prefix: /testTemplates /
+    suffix: .html
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQL94Dialect
+      ddl-auto: create-drop
+
+server:
+  port: 8080
