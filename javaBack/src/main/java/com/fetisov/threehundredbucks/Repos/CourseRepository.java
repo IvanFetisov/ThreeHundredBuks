@@ -9,4 +9,8 @@ import java.util.UUID;
 
 @NoRepositoryBean
 public interface CourseRepository  extends JpaRepository<BaseCourseEntity, UUID> {
+
+    BaseCourseEntity update(BaseCourseEntity baseCourseEntity);
+
+
 }

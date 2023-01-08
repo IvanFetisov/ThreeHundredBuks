@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd
+http://www.liquibase.org/xml/ns/pro ">
+    <preConditions>
+        <runningAs username="liquibase"/>
+    </preConditions>
+    <changeSet id="1" author="fetisov">
+        <createTable tableName="author">
+            <column name="id" type="uuid">
+                <constraints primaryKey="true" primaryKeyName="pk_author_id" nullable="false"></constraints>
+            </column>
+            <column name="email" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="lastname" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="name" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="surname" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="course_id" type="uuid">
+                <constraints nullable="false"></constraints>
+            </column>
+
+        </createTable>
+    </changeSet>
+    <changeSet id="2" author="fetisov">
+        <createTable tableName="course">
+            <column name="id" type="UUID">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="type" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="name" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="description" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="difficulty" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="author_id" type="varchar">
+                <constraints nullable="false"></constraints>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

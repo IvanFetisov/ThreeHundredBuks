@@ -1,10 +1,19 @@
 package com.fetisov.threehundredbucks.Entities;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.UUID;
 
 @MappedSuperclass
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class BasicAuthorEntity {
 
     @Id

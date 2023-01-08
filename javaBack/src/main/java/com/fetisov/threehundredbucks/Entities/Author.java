@@ -8,15 +8,18 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
-@AllArgsConstructor
-@NoArgsConstructor
+
 @Entity
 @Getter
 @Setter
 @Table(name = "author")
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class Author extends BasicAuthorEntity{
+
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "course_id")

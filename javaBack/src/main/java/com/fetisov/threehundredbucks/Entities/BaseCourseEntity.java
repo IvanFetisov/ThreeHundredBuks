@@ -18,8 +18,10 @@ public class BaseCourseEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private UUID id;
+
     @Column(name ="name")
     private String name;
+
     @Column(name ="type")
     private String type; //Todo: Change from String to Enum
     @Column(name = "description")
