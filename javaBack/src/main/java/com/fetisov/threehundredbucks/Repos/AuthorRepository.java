@@ -1,7 +1,7 @@
 package com.fetisov.threehundredbucks.Repos;
 
 import com.fetisov.threehundredbucks.Entities.Author;
-import com.fetisov.threehundredbucks.Entities.BasicAuthorEntity;
+import com.fetisov.threehundredbucks.Entities.BaseAuthorEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 
@@ -12,11 +12,11 @@ import java.util.UUID;
 public interface AuthorRepository extends JpaRepository<Author,UUID> {
 
     Optional<Author> findById(UUID uuid);
-    Optional<BasicAuthorEntity> findByEmail(String email);
+    Optional<BaseAuthorEntity> findByEmail(String email);
 
-    Optional<BasicAuthorEntity> findByLastname(String lastName);
+    Optional<BaseAuthorEntity> findByLastname(String lastName);
 
-    Optional<BasicAuthorEntity> findAllByName(String name);
+    Optional<BaseAuthorEntity> findAllByName(String name);
 
 
 }

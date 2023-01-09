@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad8aa086-44bf-4d1b-9601-d760f79c0ae6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Configuration/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Configuration/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Controllers/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Entities/BaseCourseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Entities/BaseCourseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Entities/BasicAuthorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Entities/BasicAuthorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/LiquiBase/changelog/changelog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Repos/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Repos/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Repos/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Repos/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Repos/CourseRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Repos/CourseRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Services/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Services/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/main/java/com/fetisov/threehundredbucks/Services/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/main/webapp/testTemplates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaBack/src/test/java/com/fetisov/threehundredbucks/ThreeHundredBucksApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaBack/src/test/java/com/fetisov/threehundredbucks/ThreeHundredBucksApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K0fEYzLo4NW2gtiUl37hliJG3R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad8aa086-44bf-4d1b-9601-d760f79c0ae6" name="Changes" comment="" />
+      <created>1673116311335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673116311335</updated>
+      <workItem from="1673116312665" duration="1240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

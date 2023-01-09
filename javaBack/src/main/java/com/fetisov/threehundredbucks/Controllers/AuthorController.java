@@ -26,7 +26,11 @@ private static final Logger logger = LogManager.getLogger(AuthorController.class
         model.addAttribute("tasks", num);
         return "welcome";
     }
-
+    @GetMapping("/styled-page")
+    public String getStyledPage(Model model) {
+        model.addAttribute("name", "fetisov");
+        return "styledPage";
+    }
     private int getNum() {
         return 100;
     }

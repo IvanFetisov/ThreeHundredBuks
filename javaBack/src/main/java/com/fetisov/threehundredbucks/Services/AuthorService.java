@@ -1,14 +1,13 @@
 package com.fetisov.threehundredbucks.Services;
 
 import com.fetisov.threehundredbucks.DTO.AuthorDTO;
-import com.fetisov.threehundredbucks.Entities.BasicAuthorEntity;
+import com.fetisov.threehundredbucks.Entities.Author;
 
 
-import java.util.List;
 import java.util.UUID;
 
 public interface AuthorService {
-    AuthorDTO save (AuthorDTO authorDTO);
+    Author save (AuthorDTO authorDTO);
 
     AuthorDTO get(UUID id);
 }

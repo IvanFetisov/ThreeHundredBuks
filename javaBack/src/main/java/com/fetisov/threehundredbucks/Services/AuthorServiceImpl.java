@@ -2,11 +2,13 @@ package com.fetisov.threehundredbucks.Services;
 
 import com.fetisov.threehundredbucks.DTO.AuthorDTO;
 import com.fetisov.threehundredbucks.Entities.Author;
-import com.fetisov.threehundredbucks.Entities.BasicAuthorEntity;
+import com.fetisov.threehundredbucks.Entities.BaseAuthorEntity;
 import com.fetisov.threehundredbucks.Exceptions.AuthorNotFoundException;
-import com.fetisov.threehundredbucks.Mappers.AuthorMapper;
+import com.fetisov.threehundredbucks.Mappers.MyMapper;
 import com.fetisov.threehundredbucks.Repos.AuthorRepository;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -14,29 +16,19 @@ import java.util.UUID;
 
 @Service
 @Slf4j
+@RequiredArgsConstructor
 public class AuthorServiceImpl implements AuthorService{
 
-    private final AuthorMapper authorMapper;
-    private final AuthorRepository authorRepository;
-
+    private AuthorRepository authorRepository;
+    private MyMapper myMapper;
+    private ModelMapper modelMapper;
     public Author create(Author author){
         return authorRepository.save(author);
     }
-    public AuthorServiceImpl(AuthorMapper authorMapper, AuthorRepository authorRepository) {
-        this.authorMapper = authorMapper;
-        this.authorRepository = authorRepository;
-    }
 
-//    public Optional<Author> getAllCoursesOfAuthor(Author author) throws AuthorNotFoundException {
-//        Optional<Author> author1 = authorRepository.findById();
-//        if (author1!=null)
-//            return author1;
-//        else
-//            throw new AuthorNotFoundException("Author not found");
-//
-//    }
-    public Optional<BasicAuthorEntity> getAllAuthorsByName(String name) throws AuthorNotFoundException {
-        Optional<BasicAuthorEntity> authorsEntity = authorRepository.findAllByName(name);
+
+    public Optional<BaseAuthorEntity> getAllAuthorsByName(String name) throws AuthorNotFoundException {
+        Optional<BaseAuthorEntity> authorsEntity = authorRepository.findAllByName(name);
         if (authorsEntity.isPresent())
             return authorsEntity;
         else
@@ -48,11 +40,11 @@ public class AuthorServiceImpl implements AuthorService{
 
     }
     @Override
-    public AuthorDTO save(AuthorDTO dto){
-        return authorMapper.toDto(authorRepository.save(authorMapper.toEntity(dto)));
+    public Author save(AuthorDTO dto){
+        return authorRepository.save(myMapper.dtoToEntity(dto));
     }
     @Override
     public AuthorDTO get(UUID id){
-        return authorMapper.toDto(authorRepository.getOne(id));
+        return myMapper.entityToDto(authorRepository.getOne(id));
     }
 }
